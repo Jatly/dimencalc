@@ -8,7 +8,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Jatly',
     author_email='jatly.aj.29@gmail.com',
-    url='https://github.com/Jatly/dimencalc',  # Your project repository URL
+    url='https://github.com/Jatly/dimencalc.git',  # Your project repository URL
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
