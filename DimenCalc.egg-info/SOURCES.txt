@@ -1,0 +1,13 @@
+README.md
+setup.py
+DimenCalc.egg-info/PKG-INFO
+DimenCalc.egg-info/SOURCES.txt
+DimenCalc.egg-info/dependency_links.txt
+DimenCalc.egg-info/top_level.txt
+dimencalc/__init__.py
+dimencalc/shapes.py
+dimencalc/solids.py
+dimencalc.egg-info/PKG-INFO
+dimencalc.egg-info/SOURCES.txt
+dimencalc.egg-info/dependency_links.txt
+dimencalc.egg-info/top_level.txt
