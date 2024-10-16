@@ -1,25 +1,18 @@
-Here’s a structured README.md format for your DimenCalc library user guide:
+# dimencalc Library User Guide
 
-```markdown
-# DimenCalc Library User Guide
-
-The DimenCalc library provides easy-to-use functions for calculating the area, perimeter, and volume of a variety of 2D and 3D geometric shapes. You can also compute side lengths, radii, heights, and other dimensions based on these properties.
+The dimencalc library provides easy-to-use functions for calculating the area, perimeter, and volume of a variety of 2D and 3D geometric shapes. You can also compute side lengths, radii, heights, and other dimensions based on these properties.
 
 ## Installation
 
 For now, you can copy the `shapes.py` file into your project directory. Once you have packaged the library, users will be able to install it via pip.
 
-```bash
-pip install DimenCalc
-```
+```pip install dimencalc```
 
 ## Getting Started
 
 To use the library, start by importing the relevant classes for the shape you want to calculate properties for.
 
-```python
-from shapes import Circle, Rectangle, Sphere, Cylinder, Cube, Triangle, Pentagon, Hexagon, Torus
-```
+```from shapes import Circle, Rectangle, Sphere, Cylinder, Cube, Triangle, Pentagon, Hexagon, Torus```
 
 ## 2D Shapes Usage
 
@@ -176,7 +169,7 @@ ellipse_perimeter = ellipse.perimeter()
 
 ## Reversing Calculations
 
-In addition to calculating area, perimeter, and volume, DimenCalc also supports reverse calculations like:
+In addition to calculating area, perimeter, and volume, dimencalc also supports reverse calculations like:
 
 - Calculating the radius from the area of a circle.
 - Finding the side length of a cube from the volume.
@@ -193,9 +186,9 @@ side_length = cube.side_from_volume(volume)  # Get side length from volume
 
 ## Conclusion
 
-The DimenCalc library provides a clean and structured approach to working with geometric shapes and objects. Each shape comes with methods for standard geometric calculations, as well as reverse methods to deduce properties from given values like volume, area, or perimeter.
+The dimencalc library provides a clean and structured approach to working with geometric shapes and objects. Each shape comes with methods for standard geometric calculations, as well as reverse methods to deduce properties from given values like volume, area, or perimeter.
 
 This guide should help you get started with the library. You can extend it by adding more shapes or complex geometries as needed.
 ```
 
-Feel free to modify any section as needed!
+Feel free to make any further adjustments!
