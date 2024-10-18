@@ -12,7 +12,13 @@ For now, you can copy the `shapes.py` file into your project directory. Once you
 
 To use the library, start by importing the relevant classes for the shape you want to calculate properties for.
 
-```from shapes import Circle, Rectangle, Sphere, Cylinder, Cube, Triangle, Pentagon, Hexagon, Torus```
+```from dimencalc.shapes import Circle, Rectangle, Triangle
+from dimencalc.solids import Sphere, Cube, Cylinder
+
+# Alternatively, to import everything in one go:
+from dimencalc.shapes import *
+from dimencalc.solids import *
+```
 
 ## 2D Shapes Usage
 
